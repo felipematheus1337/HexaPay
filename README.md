@@ -72,6 +72,8 @@ POST /api/v1/juros
 
 A aplicação segue os princípios da Arquitetura Hexagonal, garantindo baixo acoplamento, testabilidade e facilidade de manutenção.
 
+```json
+{
 ┌──────────────────────────────────────────────┐
 │                  HexaPay                     │
 │──────────────────────────────────────────────│
@@ -90,7 +92,8 @@ A aplicação segue os princípios da Arquitetura Hexagonal, garantindo baixo ac
 │     - Outbound (JPA Repository / MySQL)      │
 │                                              │
 └──────────────────────────────────────────────┘
-
+}
+```
 ⚙️ Stack Técnica
 Ferramenta	Função
 Java 17+	Linguagem principal
