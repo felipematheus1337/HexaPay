@@ -15,6 +15,16 @@ public class Boleto {
 
     private TipoBoleto tipo;
 
+    public Boleto() {
+    }
+
+    public Boleto(String codigo, LocalDate dataVencimento, BigDecimal valor, TipoBoleto tipo) {
+        this.codigo = codigo;
+        this.dataVencimento = dataVencimento;
+        this.valor = valor;
+        this.tipo = tipo;
+    }
+
     public String getCodigo() {
         return codigo;
     }
