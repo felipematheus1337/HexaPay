@@ -8,4 +8,5 @@ import org.mapstruct.Mapper;
 public interface BoletoMapper {
 
     Boleto toDomain(BoletoDTO boletoDTO);
+
 }
